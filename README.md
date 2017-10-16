@@ -6,7 +6,9 @@ Trải qua cuộc thi CTF do NightSt0rm tổ chức, tôi rất vui khi được
 
 Sau đây là link các bài writeup :
 
-- [level_1](https://github.com)
-- [level_2](https://github.com)
-- [level_3](https://github.com)
+- [level_1](https://github.com/MrVermouth/NightSt0rm_CTF/blob/master/Level_1.md)
+- [level_2](https://github.com/MrVermouth/NightSt0rm_CTF/blob/master/Level_2.md)
+- [level_3](https://github.com/MrVermouth/NightSt0rm_CTF/blob/master/Level_3.md)
 
+P/s: Tôi rất lười và việc viết writeup thật vất vã không như lúc làm bài. Nhưng cũng xong rồi ahihi
+Cảm ơn ban tổ chức cuộc thi này.
