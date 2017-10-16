@@ -11,4 +11,5 @@ Sau đây là link các bài writeup :
 - [level_3](https://github.com/MrVermouth/NightSt0rm_CTF/blob/master/Level_3.md)
 
 P/s: Tôi rất lười và việc viết writeup thật vất vã không như lúc làm bài. Nhưng cũng xong rồi ahihi
-Cảm ơn ban tổ chức cuộc thi này.
+
+Cảm ơn NightSt0rm đã tổ chức cuộc thi này.
