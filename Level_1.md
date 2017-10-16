@@ -8,7 +8,7 @@ Mở binary lên, tôi thấy người ra đề rất có đam mê với Bitcoin
 
 Ở phần **About Us**, là phần mô tả của nhóm **NightSt0rm** và có một đoạn code **C**. 
 Yeh, đây rồi đoạn xử lý của flag level_1. Khá dễ dàng để code lại vì đây là thuật toán **XOR** đơn giản.
-Nhưng đôi khi dễ đến thế nhưng vẫn submit không được, tôi đã nhầm lẫn về dấu cách trong chuỗi so sánh.
+Nhưng đôi khi dễ đến thế nhưng vẫn submit không được, tôi đã nhầm lẫn về khoảng trắng trong chuỗi so sánh.
 
 
 ```python
