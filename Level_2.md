@@ -89,7 +89,7 @@ print "".join(chr(ord(key[i])^harcode[i])for i in range(len(harcode)))
 
 Sau cùng, tôi có chuỗi cần tìm là **iz4ZJapuj4FCk2dFz3uSwpYX**.
 
-Nhập vào và tôi nhận được flag: NightSt0rm{Y0u_w4nt_t0_c01N_0r_Pr1z}
+Nhập vào và tôi nhận được Flag: **NightSt0rm{Y0u_w4nt_t0_c01N_0r_Pr1z}**
 
 
 
