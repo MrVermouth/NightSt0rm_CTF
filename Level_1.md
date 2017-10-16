@@ -16,4 +16,4 @@ key = "S2^g1s^c2f0o2s  "
 print "".join(chr(ord(i)^1) for i in key)
 ```
 
-Yeh, Flag: Nightst0rm{R3_f0r_b3g1n3r!!}
+Yeh, Flag: **Nightst0rm{R3_f0r_b3g1n3r!!}**
