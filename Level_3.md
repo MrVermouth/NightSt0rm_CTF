@@ -37,24 +37,24 @@ if ( !memcmp(&input, "h4", 2u) )
 
 ```C
 md5(&input[2], md5_output, 4u);
-string_to_hex_(hex_input, "%x%x%x%x", input[2], input[3], input[4], input[5]);
+sprintf(hex_input, "%x%x%x%x", input[2], input[3], input[4], input[5]);
 for ( i = 0; i < 16; ++i )
   mem[i] = hex_input[i % 8] ^ md5_output[i];
 if ( !memcmp(&hardcode1, mem, 0x10u) )
 {
   md5(&input[6], md5_output, 4u);
-  string_to_hex(hex_input, "%x%x%x%x", input[6], input[7], input[8], input[9]);
+  sprintf(hex_input, "%x%x%x%x", input[6], input[7], input[8], input[9]);
   for ( j = 0; j < 16; ++j )
     mem[j] = hex_input[j % 8] ^ md5_output[j];
   if ( !memcmp(&hardcode2, mem, 0x10u) )
   {
-    string_to_hex(hex_input, "%x%x%x%x", input[10], input[11], input[12], input[13]);
+    sprintf(hex_input, "%x%x%x%x", input[10], input[11], input[12], input[13]);
     md5(&input[10], md5_output, 4u);
     for ( k = 0; k < 16; ++k )
       mem[k] = hex_input[k % 8] ^ md5_output[k];
     if ( !memcmp(&hardcode3, mem, 0x10u) )
     {
-      string_to_hex(hex_input, "%x%x%x%x", input[14], input[15], input[16], input[17]);
+      sprintf(hex_input, "%x%x%x%x", input[14], input[15], input[16], input[17]);
       md5(&input[14], md5_output, 4u);
       for ( l = 0; l < 16; ++l )
         mem[l] = hex_input[l % 8] ^ md5_output[l];
